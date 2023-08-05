@@ -1,11 +1,9 @@
 import React from 'react';
-import CardStyles from './CardStyles.css';
-import ReactDOM from 'react';
 
 function UserProfileCard() {
-    return (
-        <div className="user-profile-card">
-            <img src="liam.jpeg" alt="profile" />
+  return (
+    <div className="user-profile-card">
+      <img src="liam.jpeg" alt="profile" />
             <h1>William van Houten</h1>
             <p>20+ Followers | 15+ Projects</p>
             <h3>Aspiring Software Engineer</h3>
@@ -15,8 +13,8 @@ function UserProfileCard() {
                 <a href="https://github.com/WilliamvanHouten" className="follow-button">Follow Me</a>
                 <button className="profile-button">View Profile</button>
             </div>
-        </div>
-    );
+    </div>
+  );
 }
 
 export default UserProfileCard;

@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import CardStyles from './CardStyles.css'
 
 function App() {
   return (
     <div className="App">
-      <p>this is a test</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

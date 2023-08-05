@@ -1,5 +1,4 @@
 import React from 'react';
-import CardStyles from './CardStyles.css'
 
 function UserProfileCard() {
     return (

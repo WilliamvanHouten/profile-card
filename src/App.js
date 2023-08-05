@@ -1,5 +1,6 @@
 import UserProfileCard from './UserProfileCard';
 import React from 'react';
+import './CardStyles.css';
 
 function App() {
   return (
